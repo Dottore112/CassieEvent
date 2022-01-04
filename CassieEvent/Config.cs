@@ -1,8 +1,7 @@
 ﻿using Exiled.API.Interfaces;
 using System.ComponentModel;
 
-namespace Cassiefigo
-
+namespace CassieEventNatale
 {
     public class Config : IConfig
     {
@@ -10,8 +9,9 @@ namespace Cassiefigo
         public bool IsEnabled { get; set; } = true;
 
         [Description("Cassie broadcast")]
-
         public string Cassiefigo { get; set; } = "Xmas_JingleBells";
+
+        [Description("Broadcast")]
+        public Exiled.API.Features.Broadcast BC { get; set; } = new Exiled.API.Features.Broadcast();
     }
-} 
-    
+}

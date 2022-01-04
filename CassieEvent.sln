@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cassiefigo", "Cassiefigo\Cassiefigo.csproj", "{39675B87-6B58-47BB-BF11-E075B6D5A550}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CassieEventNatale", "CassieEventNatale\CassieEventNatale.csproj", "{819B71AB-C4B2-4F11-8F8A-8860503902B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39675B87-6B58-47BB-BF11-E075B6D5A550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39675B87-6B58-47BB-BF11-E075B6D5A550}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39675B87-6B58-47BB-BF11-E075B6D5A550}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39675B87-6B58-47BB-BF11-E075B6D5A550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819B71AB-C4B2-4F11-8F8A-8860503902B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819B71AB-C4B2-4F11-8F8A-8860503902B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819B71AB-C4B2-4F11-8F8A-8860503902B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819B71AB-C4B2-4F11-8F8A-8860503902B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A1AEFB37-026D-4D2D-BBE1-515463A76AE6}
+		SolutionGuid = {47F178C7-FD35-4137-B783-8D531797B45B}
 	EndGlobalSection
 EndGlobal

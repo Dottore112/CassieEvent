@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{39675B87-6B58-47BB-BF11-E075B6D5A550}</ProjectGuid>
+    <ProjectGuid>{819B71AB-C4B2-4F11-8F8A-8860503902B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cassiefigo</RootNamespace>
-    <AssemblyName>Cassiefigo</AssemblyName>
+    <RootNamespace>CassieEventNatale</RootNamespace>
+    <AssemblyName>CassieEventNatale</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -107,9 +107,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Plugin.cs" />
-    <Compile Include="Config.cs" />
     <Compile Include="Handlers.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
