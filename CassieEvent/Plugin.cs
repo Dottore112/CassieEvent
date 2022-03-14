@@ -14,8 +14,8 @@ namespace CassieEventNatale
         
         
             public Handlers Handlers { get; private set; }
-            public override Version Version { get; } = new Version(1, 0, 0);
-            public override Version RequiredExiledVersion { get; } = new Version(4, 0, 0);
+            public override Version Version { get; } = new Version(1, 0, 1);
+            public override Version RequiredExiledVersion { get; } = new Version(5, 0, 0);
             
 
 
